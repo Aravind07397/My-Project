@@ -19,3 +19,15 @@ The PhonePe Pulse Data Visualization project offers an interactive web applicati
 - Identify top transactions and users based on transaction counts and registered users.
 - Interactive pie charts, bar charts, and choropleth maps for data visualization.
 - Filter data by quarter for deeper analysis.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Document Information Extractor
+The Document Information Extractor is a Python-based project aimed at extracting structured data from various document formats, including PDFs, Word documents, and plain text files. This tool is particularly useful for automating the extraction of specific data points or metadata from documents, streamlining the process of information retrieval and analysis.
+
+## Features
+Multi-format Support: Extract information from PDFs, Word documents, and plain text files.
+Customizable Extraction: Define rules and patterns to extract specific data points or metadata from documents.
+Structured Output: Output extracted information in a structured format, such as JSON or CSV, for further analysis and processing.
+Scalability: Process large collections of documents efficiently, thanks to optimized extraction algorithms.
+Ease of Use: Simple command-line interface for initiating document extraction with minimal configuration.
