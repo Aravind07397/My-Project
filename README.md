@@ -31,3 +31,53 @@ Customizable Extraction: Define rules and patterns to extract specific data poin
 Structured Output: Output extracted information in a structured format, such as JSON or CSV, for further analysis and processing.
 Scalability: Process large collections of documents efficiently, thanks to optimized extraction algorithms.
 Ease of Use: Simple command-line interface for initiating document extraction with minimal configuration.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Airbnb Data Visualization Dashboard
+
+This project is a Streamlit application for visualizing Airbnb listings data. The dashboard provides various insights such as basic statistics, distribution of property types, average prices, room type distributions, and more. It also includes geospatial visualizations if the dataset contains latitude and longitude information.
+
+## Features
+
+- **Basic Statistics**: Summary statistics of the dataset.
+- **Distribution of Property Types**: Bar chart showing the count of different property types.
+- **Average Price per Property Type**: Bar chart showing the average price for each property type.
+- **Room Type Distribution**: Pie chart showing the distribution of different room types.
+- **Number of Reviews Distribution**: Histogram showing the distribution of the number of reviews.
+- **Review Score Rating Distribution**: Histogram showing the distribution of review scores.
+- **Availability in the Next 30 Days**: Histogram showing the availability of listings in the next 30 days.
+- **Geospatial Visualization**: Map and detailed visualization of listings (if latitude and longitude columns are present).
+
+## Installation
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/yourusername/airbnb-visualization.git
+    cd airbnb-visualization
+    ```
+
+2. **Set up a virtual environment** (optional but recommended):
+    ```bash
+    python -m venv venv
+    source venv/bin/activate   # On Windows use `venv\Scripts\activate`
+    ```
+
+3. **Install the required packages**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Set up the MySQL database**:
+    - Ensure you have MySQL installed and running.
+    - Create a database named `myproject`.
+    - Import your Airbnb dataset into a table named `airabnb`.
+
+5. **Configure the database connection**:
+    - Update the database connection parameters in `app.py` (host, user, password, database) to match your MySQL setup.
+
+## Running the Application
+
+Run the following command to start the Streamlit application:
+
+```bash
+streamlit run app.py
