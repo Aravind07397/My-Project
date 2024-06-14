@@ -74,14 +74,7 @@ This project is a Streamlit application for visualizing Airbnb listings data. Th
 
 5. **Configure the database connection**:
     - Update the database connection parameters in `app.py` (host, user, password, database) to match your MySQL setup.
-
-## Running the Application
-
-Run the following command to start the Streamlit application:
-
-```bash
-streamlit run app.py
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Industrial Copper Modelling
 Selling Price and Status Prediction
 This project includes a machine learning solution for predicting the selling price and status (won/lost) of items. It uses linear regression for predicting the selling price and logistic regression for predicting the status. The models are trained on a dataset and then deployed using a Streamlit app for interactive predictions.
