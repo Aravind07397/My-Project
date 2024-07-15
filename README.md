@@ -138,3 +138,54 @@ The app will open in your default web browser. You can input the values for the 
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Singapore Resale Flat Prices Predicting
+ ## Project Overview
+   This project aims to predict the resale prices of flats in Singapore using various machine learning models. The models are trained on historical data and deployed as a web application using Streamlit. Users can input details of a flat to get an estimated resale price.
+
+## Project Structure
+    Data Collection and Preprocessing
+    Feature Engineering
+    Model Selection and Training
+    Model Evaluation
+    Model Saving
+    Streamlit Application Development
+## Data Collection and Preprocessing
+  The dataset contains resale flat transactions from the Singapore Housing and Development Board (HDB) for the years 1990 to present. The preprocessing steps include:
+
+    Handling missing values
+    Standardizing features
+    Splitting the dataset into training and testing sets
+    Feature Engineering
+## Relevant features were extracted from the dataset, including:
+    Town
+    Flat type
+    Storey range
+    Floor area
+    Flat model
+    Lease commence date
+    Additional features were created to enhance prediction accuracy.
+
+## Model Selection and Training
+    Three different machine learning models were selected and trained:
+    
+    Linear Regression
+    Decision Tree Regressor
+
+Hyperparameter tuning was performed for Decision Tree and Random Forest models using GridSearchCV.
+
+## Model Evaluation
+    The models were evaluated using the following metrics:
+    
+    Mean Absolute Error (MAE)
+    Mean Squared Error (MSE)
+    Root Mean Squared Error (RMSE)
+    R² Score
+
+## Model Saving
+    The trained models were saved using joblib for later use in the Streamlit application.
+## Streamlit Application Development
+    Three separate Streamlit applications were developed for each model. The applications allow users to input details of a flat and get a predicted resale price.
+
+## Conclusion
+    This project demonstrates the end-to-end process of building and deploying a machine learning model to predict resale flat prices in Singapore. The use of Streamlit makes it easy to create interactive web applications for predictive modeling.
